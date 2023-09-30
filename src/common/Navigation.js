@@ -30,7 +30,7 @@ const Navigation = ({ children }) => {
 
   const items = [
     getItem("Dashboard", '/dashboard', <BankTwoTone />),
-    getItem("Details", "/details", <UserOutlined />),
+    getItem("Details", "/", <UserOutlined />),
     getItem("Customer", "/customer", <CarFilled />),
     getItem("Product", "/product", <LineChartOutlined />),
     getItem("Financial", "/sales", <LineChartOutlined />),

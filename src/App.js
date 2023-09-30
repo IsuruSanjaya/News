@@ -36,7 +36,7 @@ function App() {
         }
       />
       <Route
-        path="/details"
+        path="/"
         element={
           <Navigation>
             <Details />
