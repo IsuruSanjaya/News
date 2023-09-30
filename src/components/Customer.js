@@ -15,7 +15,7 @@ const Customer = () => {
     const [customer, setCustomer] = useState([]);
 
     function getCustomer() {
-        axios.get(`http://localhost:4000/customer/`)
+        axios.get(`phoneplanetbackend.azurewebsites.net/customer/`)
             .then((res) => {
                 setCustomer(res.data);
             })
