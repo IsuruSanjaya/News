@@ -129,7 +129,7 @@ const SalesDetails = () => {
 
 
   function getCustomer() {
-    axios.get(`https://application-90e31.web.app/customer/`)
+    axios.get(`http://localhost:4000/customer/`)
       .then((res) => {
         setCustomer(res.data);
       })

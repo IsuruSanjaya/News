@@ -18,6 +18,14 @@ function App() {
           </Navigation>
         }
       />
+       <Route
+        path="/dashboard"
+        element={
+          <Navigation>
+            <Navigation />
+          </Navigation>
+        }
+      />
       <Route
         path="/bill"
         element={
