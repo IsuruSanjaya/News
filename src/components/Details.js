@@ -116,7 +116,7 @@ const Details = () => {
     return (
         <>
             <div
-                style={{ marginLeft: 250 }}
+                style={{ marginLeft: 100 }}
             >
 
                 <Card style={{ maxWidth: 800, padding: 10, margin: 20, alignContent: "center" }}>

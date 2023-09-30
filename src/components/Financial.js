@@ -187,7 +187,7 @@ const SalesDetails = () => {
 
 
       <div
-        style={{ marginLeft: 250 }}
+                style={{ marginLeft: 100 }}
 
 
       >
