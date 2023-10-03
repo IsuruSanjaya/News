@@ -6,11 +6,12 @@ import Navigation from './common/Navigation';
 import Details from './components/Details';
 import SalesDetails from './components/Financial';
 import SalesBill from './components/sales';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
     <Routes>
-       <Route
+      <Route
         path="/customer"
         element={
           <Navigation>
@@ -18,7 +19,7 @@ function App() {
           </Navigation>
         }
       />
-      
+
       <Route
         path="/bill"
         element={
@@ -43,6 +44,15 @@ function App() {
           </Navigation>
         }
       />
+
+      <Route
+        path="/dashboard"
+        element={
+          <Navigation>
+            <Dashboard />
+          </Navigation>
+        }
+      />
       <Route
         path="/product"
         element={
@@ -53,7 +63,7 @@ function App() {
       />
 
     </Routes>
- 
+
   );
 }
 
